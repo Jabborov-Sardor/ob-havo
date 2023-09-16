@@ -1,0 +1,23 @@
+.container {
+  padding: 0;
+  margin: 0;
+  background-color: dodgerblue;
+}
+
+h1 {
+  text-align: center;
+}
+
+main {
+  display: flex;
+  justify-content: space-around;
+}
+.left,
+.right {
+  width: 50%;
+}
+
+.left img,
+.right img {
+  width: 400px;
+}
